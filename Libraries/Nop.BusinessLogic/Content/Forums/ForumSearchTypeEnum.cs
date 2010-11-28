@@ -1,0 +1,21 @@
+namespace NopSolutions.NopCommerce.BusinessLogic.Content.Forums
+{
+    /// <summary>
+    /// Represents a forum search type
+    /// </summary>
+    public enum ForumSearchTypeEnum
+    {
+        /// <summary>
+        /// Topic titles and post text
+        /// </summary>
+        All = 0,
+        /// <summary>
+        /// Topic titles only
+        /// </summary>
+        TopicTitlesOnly = 10,
+        /// <summary>
+        /// Post text only
+        /// </summary>
+        PostTextOnly = 20,
+    }
+}
